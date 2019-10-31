@@ -1,11 +1,3 @@
-import React from 'react'
+import Example from './Example.js'
 
-import './style.scss'
-
-const Projects = () => (
-  <div className="loader">
-    <h1>Change me</h1>
-  </div>
-)
-
-export default Projects
+export default Example
