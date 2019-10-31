@@ -1,0 +1,28 @@
+language: node_js
+
+node_js:
+  - "10.9.0"
+
+cache: npm
+
+before_install:
+  - npm i -g now
+
+before_script:
+  - ls -la
+
+script:
+  - npm run build
+
+after_script:
+  - "now --token $NOW_TOKEN"
+
+branches:
+  only:
+  - master
+  - integration
+
+deploy:
+  provider: script
+  script: bash scripts/deploy.sh
+  skip_cleanup: true
