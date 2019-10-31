@@ -9,9 +9,9 @@ function TopNav() {
   // const [visible, setVisible] = useState(true);
 
   // function showMe() {
-    // console.log(visible)
-    // setVisibile(false)
-    // console.log(visible)
+  // console.log(visible)
+  // setVisibile(false)
+  // console.log(visible)
   // }
 
   return (
