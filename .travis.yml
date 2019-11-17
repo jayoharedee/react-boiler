@@ -14,8 +14,9 @@ before_script:
 script:
   - npm run build
 
-after_script:
-  - "now --token $NOW_TOKEN"
+# not needed most likely
+# after_script:
+#   - "now --token $NOW_TOKEN"
 
 branches:
   only:
