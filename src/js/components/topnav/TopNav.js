@@ -23,23 +23,6 @@ function TopNav() {
         <li className="item">
           <Link to="/projects">Example route</Link>
         </li>
-        {/* <li className="item">
-          <Link to="/studys">CASE STUDY</Link>
-        </li>
-        <li className="item">
-          <Link to="/portfolio">PORTFOLIO</Link>
-        </li>
-        <li className="item">
-          <Link to="/awards">AWARDS</Link>
-        </li>
-        <li className="item">
-          <Link to="/contact">CONTACT</Link>
-        </li>
-        <li className={`toggle`}>
-          <Link to="/awards" onClick={showMe}>
-            <FontAwesome iconNames="fas fa-bars" />
-          </Link>
-        </li> */}
       </ul>
     </nav>
   )
