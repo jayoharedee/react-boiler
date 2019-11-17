@@ -6,6 +6,9 @@ fi
 
 DIR=$(basename "`pwd`" )
 
+
+## TODO: Write a usage for this tool
+
 # ensure user is in root project or scripts folder before continuing
 case $DIR in
   components)
