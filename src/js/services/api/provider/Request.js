@@ -7,7 +7,7 @@ class Request extends React.Component {
     super(props)
 
     const isDev = process.env.NODE_ENV !== 'production'
-    this.baseURI = isDev ? 'http://localhost:4000' : ''
+    this.baseURI = isDev ? 'http://localhost:3000' : ''
     this.axiosContext = React.createContext(this.value)
   }
 
