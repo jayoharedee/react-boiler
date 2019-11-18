@@ -14,16 +14,12 @@ before_script:
 script:
   - npm run build
 
-# not needed most likely
-# after_script:
-#   - "now --token $NOW_TOKEN"
-
 branches:
   only:
   - master
   - integration
 
-deploy:
-  provider: script
-  script: bash scripts/deploy.sh
-  skip_cleanup: true
+# deploy:
+#   provider: script
+#   script: bash scripts/deploy.sh
+#   skip_cleanup: true
